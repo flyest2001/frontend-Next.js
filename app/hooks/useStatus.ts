@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Status, ChartDataPoint } from '../lib/types';
 
-const API_BASE_URL = 'http://127.0.0.1:8000';
+const API_BASE_URL = 'https://backend-python-chi.vercel.app';
 
 export const useStatus = () => {
     const [status, setStatus] = useState<Status | null>(null);
